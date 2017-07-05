@@ -1,0 +1,5 @@
+{
+    "name": "micropayment/payment-api",
+    "type": "library",
+    "require": {}
+}
