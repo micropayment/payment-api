@@ -2,11 +2,6 @@
 
 micropayment payment API client and demo application.
 
-## Getting Started
-
-TODO: Coming soon...
-
-
 
 ## Getting Started
 
@@ -20,9 +15,9 @@ GIT and Composer will be nice too ...
 Clone or 'create-project' this package via GIT or Composer.
 
 ```
-$ git clone git://github.com/micropayment/payment-api
-or
 $ composer create-project micropayment/payment-api
+or
+$ git clone git://github.com/micropayment/payment-api
 ```
 
 You may also download and unzip the package from https://github.com/micropayment/payment-api/archive/master.zip
@@ -31,10 +26,12 @@ You may also download and unzip the package from https://github.com/micropayment
 
 To run a demo application, start a php server on the /demoapp dir ...
 ```
+$ composer demoserver
+or
 $ php -S localhost:8000 -t payment-api/demoapp
 ```
 
-... and explore the possibilities of the api in your browser http://localhost:8000/.
+... and explore the possibilities of the API in your browser http://localhost:8000/.
 
 After a few minutes you can find your transaction in our [Demo ControlCenter](https://www.micropayment.de/demologin/auto/)
 
@@ -47,7 +44,7 @@ TODO: Coming soon ...
 ## Going in Production
  
 You have to register an account for your organisation on micropayment, and activate the different payment methods.
-[Here](https://www.micropayment.de/auth/register) you find the registration form.
+Here you find the [registration form](https://www.micropayment.de/auth/register).
 
 Until your account is fully activated, and after, you can use all API features in a special sandbox mode. So you will be 
 able to work on your next version, while your organisation is doing its business.

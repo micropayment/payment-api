@@ -8,9 +8,12 @@
 	],
 	"type": "library",
 	"minimum-stability": "dev",
+	"scripts": {
+		"demoserver": "php -S localhost:8000 -t ./demoapp"
+	},
 	"autoload": {
 		"psr-4": {
-			"Micropayment\\PaymentApi\\Client": "src/"
+			"Micropayment\\PaymentApi\\Client\\": "src/"
 		}
 	},
 	"require": {}
