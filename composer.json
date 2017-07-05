@@ -1,5 +1,20 @@
 {
-    "name": "micropayment/payment-api",
-    "type": "library",
-    "require": {}
+	"name": "micropayment/payment-api",
+	"authors": [
+		{
+			"name": "hheyne",
+			"email": "hheyne@micropayment.de"
+		}
+	],
+	"type": "library",
+	"minimum-stability": "dev",
+	"scripts": {
+		"demoserver": "php -S localhost:8000 -t ./demoapp"
+	},
+	"autoload": {
+		"psr-4": {
+			"Micropayment\\PaymentApi\\Client\\": "src/"
+		}
+	},
+	"require": {}
 }
